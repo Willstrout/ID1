@@ -1,10 +1,36 @@
+/*text*/
 body {
     width:100%;
+    margin:0;
+    background-image: url("starBG.gif");
+    text-align: left;
 }
 
-img {
-    width:100%;
+h1
+{
+    color:white;
+    text-align:center;
 }
-p {
+
+p 
+{
     width:80%;
+    color: white; 
+    font-size: 4vw;
+    margin: auto;
+}
+
+/*images*/
+
+img#EFcropped 
+{
+    width:100%;
+    margin:0;
+
+}
+img#GroupCity
+{
+    width:100%;
+    margin: auto;
+        
 }
