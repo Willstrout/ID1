@@ -8,16 +8,46 @@ body {
 
 h1
 {
-    color:white;
+    font-family: 'VT323', monospace;
+    color: deeppink;
     text-align:center;
+    margin: 8% 2% 5% 2%;
+    border-bottom: dotted;
+    border-color: white;
+    border-width: 50%;
+}
+
+h2
+{
+    color: deeppink;
+    text-align:center;
+    margin: 10% 2% 5% 2%;
+    border-style: dotted;
+    border-color: white;
+    border-width: 50%;
+    
 }
 
 p 
 {
-    width:80%;
+    font-family: 'VT323', monospace;
     color: white; 
-    font-size: 1.74vw;
-    margin: auto;
+    font-size: 1.7vw;
+    width:80%;
+    margin: 5% auto;
+}
+
+html {
+    font-size: 150%; /* Base font-size of 16px */
+}
+p {
+    font-size: 1em;
+}
+
+@media screen and (min-width: 1920px) {
+    html {
+        font-size: 200%; /* Base font-size of 32px */
+    }
 }
 
 /*images*/
@@ -30,8 +60,13 @@ img#EFcropped
 }
 img#GroupCity
 {
-    width:100%;
+    width:45%;
     margin: auto;
     padding:20px;
-        
+    float:right
+}
+
+iframe{
+    align-content: center;
+
 }
