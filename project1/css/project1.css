@@ -46,7 +46,7 @@ p {
 
 @media screen and (min-width: 1920px) {
     html {
-        font-size: 200%; /* Base font-size of 32px */
+        font-size: 300%; /* Base font-size of 32px */
     }
 }
 
