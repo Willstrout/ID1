@@ -1,8 +1,9 @@
 /*text*/
+
 body {
     width:100%;
     margin:0;
-    background-image: url("starBG.gif");
+    background-image:url("starBG.gif") ;
     text-align: left;
 }
 
@@ -28,24 +29,23 @@ h2
     
 }
 
+div
+{
+    background:url(tansparentGradient.png);
+    background-repeat:repeat-y;
+    background-size: 120%;
+    background-position: center;
+}
+
 p 
 {
+
     font-family: 'VT323', monospace;
-    color: white; 
-    font-size: 1.7vw;
+    background-size: ;
+    color:white;
+    font-size: 1.78vw;
     width:80%;
     margin: 5% auto;
-}
-
-html {
-    font-size: 150%; 
-}
-
-
-@media screen and (min-width: 320px) {
-    html {
-        font-size: 300%; 
-    }
 }
 
 /*images*/
@@ -64,7 +64,11 @@ img#GroupCity
     float:right
 }
 
-iframe{
-    align-content: center;
-
+img#bottomCity
+{
+    border-image-repeat: stretch;
+    margin-bottom: 0;
+    
 }
+
+
