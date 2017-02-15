@@ -26,7 +26,7 @@ h2
     border-style: dotted;
     border-color: white;
     border-width: 50%;
-    
+
 }
 
 div
@@ -43,7 +43,7 @@ p
     font-family: 'VT323', monospace;
     background-size: ;
     color:white;
-    font-size: 1.78vw;
+    font-size: 2vw;
     width:80%;
     margin: 5% auto;
 }
@@ -61,14 +61,29 @@ img#GroupCity
     width:45%;
     margin: auto;
     padding:20px;
-    float:right
+    float:right;
 }
 
-img#bottomCity
+img#postergif
 {
-    border-image-repeat: stretch;
-    
-    
+    width:30%;
+    margin:auto;
+    padding:20px;
+    float:left;
+}
+
+img#polaroid
+{
+    width:40%;
+    margin:auto;
+    padding:20px;
+    float:right;
+}
+
+img#albums
+{
+    width:100%;
+    margin:0;
 }
 
 
