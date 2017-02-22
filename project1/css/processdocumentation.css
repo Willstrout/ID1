@@ -1,0 +1,25 @@
+/*text*/
+
+body{
+    width:100%;
+    margin:0;
+    background-color: black;
+    text-align: left;
+}
+
+p{
+    width:80%;
+    margin: 5% auto;
+    font-family: 'VT323', monospace;
+    color:white;
+    font-size: 2vw; 
+}
+
+img#moodBoard{
+    width:60%;
+    margin:2%;
+}
+img#siteWireframe{
+    width:60%;
+    margin:2%;
+}
