@@ -3,17 +3,28 @@
 body {
     margin:10%;
 }
+ol {
+    text-align: center;
+}
 
 img {
     width:100%;
 }
 
+section#navlinks{
+    position: fixed;
+}
+
+img#project1screen{
+    border-image-width: 20%;
+}
 /* Mobile */
 
 @media only screen and (max-width:500px) {
     body {
         width:80%;
         padding:2% 2%;
+        align-content: center;
     }
     
     Img {
