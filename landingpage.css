@@ -3,7 +3,8 @@
 body {
     margin:10%;
 }
-ol {
+ol, li {
+    list-style-position: inside;
     text-align: center;
 }
 
@@ -11,13 +12,22 @@ img {
     width:100%;
 }
 
-section#navlinks{
+.navlinks{
     position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    a: hover{
+    background-color: crimson;
+    }
 }
+
+
 
 img#project1screen{
     border-image-width: 20%;
 }
+
 /* Mobile */
 
 @media only screen and (max-width:500px) {
