@@ -1,9 +1,11 @@
 /* Desktop */
 
 body {
+    padding-top: 400px;
     margin:10%;
+    background-color:dimgray;
 }
-ol, li {
+ol, li, ul {
     list-style-position: inside;
     text-align: center;
 }
@@ -15,23 +17,69 @@ img {
 .navlinks{
     position: fixed;
     left: 0;
-    top: 0;
+    top: 400px;
+    bottom:auto;
     width: 100%;
-    a: hover{
-    background-color: crimson;
-    }
+    background-color: darkslategray;
+    background-repeat: repeat-x;
+    text-align: center;
 }
 
+a:link{
+    color:white;
+}
 
+a:visited{
+    color: orangered;
+}
+
+a:hover{
+    color: grey;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Russo One', sans-serif; 
+    color:greenyellow;
+    text-shadow:1px 1px 2px black; 
+}
+
+p, ul, ol {
+    font-family: 'Source Serif Pro', serif;
+    color: white;
+    text-shadow:1px 1px 2px black; 
+}
 
 img#project1screen{
     border-image-width: 20%;
+    align-content: center;
+}
+
+#headerimage{
+   width:1000px;
+    height: 400px;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: black;
 }
 
 /* Mobile */
 
 @media only screen and (max-width:500px) {
-    body {
+    .navlinks{
+    position: fixed;
+    left: 0;
+    top: 200px;
+    bottom:auto;
+    width: 100%;
+    background-color: darkslategray;
+    background-repeat: repeat-x;
+    text-align: center;
+}
+    body{
+        padding-top: 200px;
+    }
+    p,{
         width:80%;
         padding:2% 2%;
         align-content: center;
@@ -40,4 +88,12 @@ img#project1screen{
     Img {
         width:80%;
     }
+    #headerimage{
+   width:500px;
+    height: 200px;
+    position: fixed;
+    top:0;
+    left:0;
+}
+    
 }
