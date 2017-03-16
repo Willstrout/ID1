@@ -2,7 +2,7 @@
 
 body {
     padding-top: 400px;
-    margin:10%;
+    margin:0;
     background-color:dimgray;
 }
 ol, li, ul {
@@ -21,7 +21,6 @@ img {
     bottom:auto;
     width: 100%;
     background-color: darkslategray;
-    background-repeat: repeat-x;
     text-align: center;
 }
 
@@ -59,8 +58,13 @@ img#project1screen{
     height: 400px;
     position: fixed;
     top:0;
-    left:0;
+}
+
+#headerimg{
+    
     background-color: black;
+    width: 100%;
+    
 }
 
 /* Mobile */
@@ -68,7 +72,6 @@ img#project1screen{
 @media only screen and (max-width:500px) {
     .navlinks{
     position: fixed;
-    left: 0;
     top: 200px;
     bottom:auto;
     width: 100%;
@@ -81,7 +84,7 @@ img#project1screen{
     }
     p,{
         width:80%;
-        padding:2% 2%;
+        margin:2% 2%;
         align-content: center;
     }
     
@@ -92,6 +95,7 @@ img#project1screen{
    width:500px;
     height: 200px;
     position: fixed;
+    align-content: center;
     top:0;
     left:0;
 }
