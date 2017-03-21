@@ -93,10 +93,11 @@ aside{
     width: 40%;
 }
 
-footer{
-    padding-bottom: 0;
-    padding-top: 100%;
+ footer{
+    padding-bottom: 10px;
+    padding-top: 10%;
     padding-left: 10%;
+    clear:both
 }
 /* Mobile */
 
@@ -143,12 +144,11 @@ footer{
 
     .examples {
         display: none;
-    }
+
     
-        footer{
-    position: fixed;
-    padding-bottom: 0;
-    padding-top: 100%;
-    }
 }
+    
+    .aboutme {
+        float: left;
+    }
 
