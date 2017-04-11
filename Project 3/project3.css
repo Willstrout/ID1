@@ -1,0 +1,15 @@
+#gallery{
+    width: 80%;
+    height: 50%;
+}
+#me{
+    width: 20%;
+    float: right;
+    padding-right: 20%;
+    padding-top: 10%;
+}
+#aboutme{
+    width: 40%;
+    float: left;
+    padding-top: 10%;
+}
