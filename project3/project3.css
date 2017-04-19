@@ -103,7 +103,7 @@ nav{
         position:absolute;
         font-size:1.75em;
         top:40px;
-        left:290px;
+        left:310px;
         text-align:center;
 }
 
@@ -126,7 +126,7 @@ nav{
         position:absolute;
         font-size:1em;
         top:30px;
-        left:80px;
+        left:90px;
         text-align:center;
 }
     
@@ -134,7 +134,7 @@ nav{
         position:absolute;
         font-size:1em;
         top:30px;
-        left:120px;
+        left:150px;
         text-align:center;
 }
     .content{
