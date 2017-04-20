@@ -5,6 +5,11 @@ body{
     
 }
 
+#intro{
+    text-align: left;
+    width: 60%;
+}
+
 nav{
     position: fixed;
     padding-bottom: 100px;
